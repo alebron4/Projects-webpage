@@ -100,3 +100,20 @@ p {
 .app-info {
   background-color: white;
 }
+@media (max-width: 597px) {
+  h1,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+
+  .primary-link {
+    text-align: center;
+    display: block;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+}
